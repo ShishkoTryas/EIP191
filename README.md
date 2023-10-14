@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Vault Smart Contract with EIP-191
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Overview
+This repository contains a Solidity smart contract called `Vault` that implements the Ethereum Improvement Proposal (EIP) 191 for secure transaction execution. The contract allows for secure withdrawal of funds by verifying a digital signature from the contract owner.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
